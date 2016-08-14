@@ -34,7 +34,7 @@ class BuildReport
   end
 
   def set_commit_status
-    if fail_build?
+    if fail_build? || build.violation_count > 0
       commit_status.set_failure(build.violation_count)
     else
       commit_status.set_success(build.violation_count)
