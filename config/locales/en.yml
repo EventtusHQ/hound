@@ -6,7 +6,7 @@ en:
   sign_out: "Sign Out"
   active_repos: "Active repos"
   search_placeholder: "Search by repo"
-  pending_status: "Hound is busy reviewing changes..."
+  pending_status: "Zoe is busy reviewing changes..."
   cannot_activate_repo: "Only repo admins can activate"
   complete_status:
     zero: "No violations found. Woof!"
@@ -19,7 +19,7 @@ en:
 
   account:
     bulk_pricing:
-      "If you'd like to pay for Hound in bulk on a monthly or annual
+      "If you'd like to pay for Zoe in bulk on a monthly or annual
       basis we're happy to make that happen. Email %{mail_to} with your
       GitHub org name and the number of repos you'd like to activate."
     billable_email:
@@ -27,19 +27,19 @@ en:
 
   onboarding:
     title: "Let's keep that code in style:"
-    step_one_title: "Activate Hound on a repo."
-    step_one_alt_title: "Hound is active on %{count} of your repos!"
+    step_one_title: "Activate Zoe on a repo."
+    step_one_alt_title: "Zoe is active on %{count} of your repos!"
     step_one_desc:
-      "Hound watches for pull requests on all active repos.
+      "Zoe watches for pull requests on all active repos.
       Activating public repos costs $0; private repos cost $12."
     step_two_title: "Open a GitHub pull request on the repo."
     step_two_alt_title: "Open a pull request on an active repo."
     step_two_desc:
-      "Hound will review all GitHub pull requests that are
+      "Zoe will review all GitHub pull requests that are
       opened on an activated repo for violations of your style
       guide."
-    step_three_title: "Hound comments on your pull request."
+    step_three_title: "Zoe comments on your pull request."
     step_three_desc:
-      "If Hound finds any violations of your style guide it will
+      "If Zoe finds any violations of your style guide it will
       comment inline on the violation in your GitHub pull
       request."

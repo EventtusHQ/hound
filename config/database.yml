@@ -2,7 +2,7 @@ development: &default
   adapter: postgresql
   encoding: unicode
   database: hound_development
-  pool: <%= ENV.fetch("DB_POOL", 5) %>
+  pool: 5
   reaping_frequency: <%= ENV.fetch("DB_REAPING_FREQUENCY", 10) %>
 
 test:
@@ -10,5 +10,5 @@ test:
   database: hound_test
 
 production:
-  pool: <%= [ENV.fetch("MAX_THREADS", 5), ENV.fetch("DB_POOL", 5)].max %>
-  url:  <%= ENV.fetch("DATABASE_URL") if Rails.env.production? %>
+  <<: *default
+  database: hound_production
