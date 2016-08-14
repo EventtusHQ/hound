@@ -135,7 +135,7 @@ class GithubApi
       repo,
       sha,
       state,
-      context: "hound",
+      context: "Zoe CI",
       description: description,
       target_url: target_url
     )
