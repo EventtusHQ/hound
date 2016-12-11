@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/eventtus/hound.png?label=ready&title=Ready)](https://waffle.io/eventtus/hound)
 # Hound
 
 [![Build Status](https://circleci.com/gh/houndci/hound.svg?style=svg)](https://circleci.com/gh/houndci/hound)
